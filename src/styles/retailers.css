@@ -1,0 +1,78 @@
+.retailers {
+  text-align: center;
+  background-color: #6c239a;
+}
+
+.retailers-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.btn {
+  border-radius: 0px !important;
+  border: none !important;
+}
+ 
+.btn-primary {
+    color: #fff;
+    background-color: #6c239a !important;
+    border-color: #6c239a !important;
+}
+
+.show>.btn-primary.dropdown-toggle:focus {
+  box-shadow: none !important;
+}
+
+button:focus:not(:focus-visible) {
+  outline: none !important;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #6c239a !important;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .retailers-logo {
+    animation: retailers-logo-spin infinite 20s linear;
+  }
+}
+
+.retailers-container {
+    max-width: 1280px;
+    width: 100%;
+    height: auto;
+}
+
+.retailer-info {
+    min-height: auto;
+    min-width: auto;
+    padding: 10px;
+}
+
+.retailer-info img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.retailers-dropdown {
+    height: auto;
+    width: 100%;
+    padding: 20px;
+}
+
+.retailers-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.retailers-link {
+  color: #61dafb;
+}
